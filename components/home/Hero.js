@@ -34,9 +34,9 @@ function Hero() {
         data-aos-mirror="true"
         data-aos-once="false"
       >
-        {"We offer two types of solutions for you or your company."}
+        We offer two types of solutions for you or your company.
         <br />
-        {"Products and Services"}
+        Products and Services
       </h2>
     ) : index === 1 ? (
       <h2
@@ -47,7 +47,7 @@ function Hero() {
         data-aos-mirror="true"
         data-aos-once="false"
       >
-        {"Ready-made products and services are available to solve business problems"}
+        Ready-made products and services are available to solve business problems
       </h2>
     ) : (
       <h2
@@ -58,7 +58,7 @@ function Hero() {
         data-aos-mirror="true"
         data-aos-once="false"
       >
-        {"You can customize and customize the functionality you want to add."}
+        You can customize and customize the functionality you want to add.
       </h2>
     );
 
@@ -79,7 +79,7 @@ function Hero() {
         </h1>
         {subTitle}
       </div>
-      <div className={[styles.x1, styles.circlecontainer].join(" ")}>
+      {/* <div className={[styles.x1, styles.circlecontainer].join(" ")}>
         <div className={[styles.circles, styles.circle4].join(" ")}></div>
         <div className={[styles.circles, styles.circle3].join(" ")}></div>
         <div className={[styles.circles, styles.circle2].join(" ")}></div>
@@ -183,7 +183,7 @@ function Hero() {
         <div className={[styles.circles, styles.circle2].join(" ")}></div>
         <div className={[styles.circles, styles.circle1].join(" ")}></div>
         <div className={[styles.circles, styles.circle0].join(" ")}></div>
-      </div>
+      </div> */}
     </div>
   );
 }

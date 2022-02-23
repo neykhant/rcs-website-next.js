@@ -13,16 +13,16 @@ function WebAppServiceDetail() {
       <div className={styles.detailcard}>
         <div className={styles.textcontainer}>
           <p>
-            <b>{"Unlike a website, a web application is much wider and has more features."}</b>{" "}
-            {"For example, Facebook and Twitter are web apps. It is important for a web app to be responsive and to have a beautiful design to attract your customers. Ease of use of a web app and Attractive design have a huge impact on your brand image."}
+            <b>Unlike a website, a web application is much wider and has more features.</b>{" "}
+            For example, Facebook and Twitter are web apps. It is important for a web app to be responsive and to have a beautiful design to attract your customers. Ease of use of a web app and Attractive design have a huge impact on your brand image.
           </p>
           <p>
-            <b>{t("webAppServiceDetail:web-app-hightlight-2")}</b>{" "}
-            {t("webAppServiceDetail:web-app-description-1")}
+            <b>The advantage of web apps is that you do not have to download them.</b>{" "}
+            For example, Facebook and Twitter are web apps. It is important for a web app to be responsive and to have a beautiful design to attract your customers. Ease of use of a web app and Attractive design have a huge impact on your brand image.
           </p>
           <p>
-            <b>{t("webAppServiceDetail:web-app-hightlight-3")}</b>{" "}
-            {t("webAppServiceDetail:web-app-description-1")}
+            <b>All RCS web apps</b>{" "}
+            For example, Facebook and Twitter are web apps. It is important for a web app to be responsive and to have a beautiful design to attract your customers. Ease of use of a web app and Attractive design have a huge impact on your brand image.
           </p>
 
           <CheckoutBtn path="Web App Service" />

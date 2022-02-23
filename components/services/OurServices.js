@@ -6,7 +6,6 @@ import useTranslation from "next-translate/useTranslation";
 function OurServices() {
   const { t } = useTranslation();
 
-
   return (
     <div className={styles.container}>
       <h1>Our Services</h1>

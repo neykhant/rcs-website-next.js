@@ -10,7 +10,7 @@ function CheckPricing() {
     <div className={styles.container}>
       <div className={styles.textcontainer}>
         <div className={styles.paragraph}>
-          <p className="paragraphfont">{"We try to offer our products and services with a reasonable price. If the work is small or manageable, we reduce the price. If we can’t reduce the price, we improve the quality of the product."}</p>
+          <p className="paragraphfont">We try to offer our products and services with a reasonable price. If the work is small or manageable, we reduce the price. If we can’t reduce the price, we improve the quality of the product.</p>
         </div>
 
         <div className={styles.image}>

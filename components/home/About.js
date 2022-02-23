@@ -19,7 +19,7 @@ function About() {
         </div>
 
         <div className={styles.paragraph}>
-          <p className="paragraphfont">{"We built our company based on the values, standards and rules. Our customers and their needs mean everything to us. When we have to decide something, or when we reach some points, we only make decisions based on the happiness of our clients."}</p>
+          <p className="paragraphfont">We built our company based on the values, standards and rules. Our customers and their needs mean everything to us. When we have to decide something, or when we reach some points, we only make decisions based on the happiness of our clients.</p>
         </div>
       </div>
       <div className={styles.buttoncontainer}>

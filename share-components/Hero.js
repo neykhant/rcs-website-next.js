@@ -27,6 +27,7 @@ function Hero({ path, miniPath }) {
       />
     </div>
   );
+  
 }
 
 export default Hero;

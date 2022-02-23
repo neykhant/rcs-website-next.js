@@ -19,12 +19,12 @@ function CheckServices() {
         </div>
 
         <h2>
-          {"We believe in collaboration."}
-          <br /> {"By working together, we can achieve so many things."}
+          We believe in collaboration.
+          <br /> By working together, we can achieve so many things.
         </h2>
 
 
-        <p className="paragraphfont">{"We offer a lot of services. We can make any kind of website for your needs. We can develop web applications to solve complex tasks and to achieve specific functionalities for your works. We can develop android applications if you need an android app for your business."}</p>
+        <p className="paragraphfont">We offer a lot of services. We can make any kind of website for your needs. We can develop web applications to solve complex tasks and to achieve specific functionalities for your works. We can develop android applications if you need an android app for your business.</p>
         <Button path="/services" label="Check Services" />
       </div>
     </div>

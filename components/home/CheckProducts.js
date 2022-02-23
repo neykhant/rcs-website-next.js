@@ -19,12 +19,12 @@ function CheckProduct() {
       </div>
 
       <h2>
-        {"We just don’t offer products."}
-        <br /> {"We offer solutions."}
-        <br /> {"We focus on solving the pain in your works."}
+        We just don’t offer products.
+        <br /> We offer solutions.
+        <br /> We focus on solving the pain in your works.
       </h2>
 
-      <p className="paragraphfont">{"All of our products were developed by circling through the requirement analysing, building based upon the real world datas, testing under various test methods and situations, and finally when the products meet their best potential, we deliver them to the public."}</p>
+      <p className="paragraphfont">All of our products were developed by circling through the requirement analysing, building based upon the real world datas, testing under various test methods and situations, and finally when the products meet their best potential, we deliver them to the public.</p>
       <Button path="/products" label="Check Products" />
     </div>
   );

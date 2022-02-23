@@ -316,62 +316,63 @@ function WebsiteServiceDetail() {
         </div>
 
         <div className={styles.packagecontainer}>
-          {/* <Image
+          <img
             src="/images/services/website/basic-website-package.jpg"
             alt="Basic Website Package"
             width={200}
             height={150}
             className={styles.packageimage}
-          /> */}
+          />
+
 
           <div className={styles.packagetextcontainer}>
-            <h3>{t("webServiceDetail:basic-website")}</h3>
-            <p>{t("webServiceDetail:basic-website-description")}</p>
+            <h3>Basic Website Packages</h3>
+            <p>Ideal for beginners and small business owners. You can add additional features that are not included in the Basic Package as add-ons.</p>
           </div>
         </div>
 
         <div className={styles.packagecontainer}>
-          {/* <Image
+          <img
             src="/images/services/website/standard-website-package.jpg"
             alt="Basic Website Package"
             width={200}
             height={150}
             className={styles.packageimage}
-          /> */}
+          />
 
           <div className={styles.packagetextcontainer}>
-            <h3>{t("webServiceDetail:standard-website")}</h3>
-            <p>{t("webServiceDetail:standard-website-description")}</p>
+            <h3>Standard Website Packages</h3>
+            <p>Suitable for well-known businesses and medium-sized businesses. You can add additional features that are not included in the Basic Package as add-ons.</p>
           </div>
         </div>
 
         <div className={styles.packagecontainer}>
-          {/* <Image
+          <img
             src="/images/services/website/first-class-website-package.jpg"
             alt="Basic Website Package"
             width={200}
             height={150}
             className={styles.packageimage}
-          /> */}
+          />
 
           <div className={styles.packagetextcontainer}>
-            <h3>{t("webServiceDetail:first-class-website")}</h3>
-            <p>{t("webServiceDetail:first-class-website-description")}</p>
+            <h3>First Class Website Packages</h3>
+            <p>Suitable for well-known businesses and large-sized businesses. There will be two separate design samples.</p>
           </div>
         </div>
 
         <div className={styles.packagecontainer}>
-          {/* <Image
+          <img
             src="/images/services/website/e-commerce.jpg"
             alt="Basic Website Package"
             width={200}
             height={150}
             className={styles.packageimage}
-          /> */}
+          />
 
           <div className={styles.packagetextcontainer}>
-            <h3>{t("webServiceDetail:e-commerce")}</h3>
-            <p>{t("webServiceDetail:e-commerce-description")}</p>
+            <h3>E-Commerce Website</h3>
+            <p>As internet usage expands in Myanmar, the practice of online shopping is becoming a rapidly growing market. Easy to use and professionally managed is the key to an e-commerce website. Layout that suits the nature of your business, Administration, Customization Messenger bot and Payment forms are now available at RCS.</p>
           </div>
         </div>
 

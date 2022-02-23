@@ -26,6 +26,7 @@ function OurPricing({
           />
         ))}
       </div>
+      
       <h1>Pricing Rate 300,000 ~ 500,000</h1>
       <div className={styles.cardcontainer}>
         <PricingCard

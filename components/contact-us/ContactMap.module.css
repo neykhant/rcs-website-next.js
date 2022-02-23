@@ -24,3 +24,13 @@
 .largermap:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 500px) {
+  .mapcontainer img{
+    width: 350px;
+    height: 400px;
+  }
+
+}
+
+

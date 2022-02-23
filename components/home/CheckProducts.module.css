@@ -9,7 +9,7 @@
 }
 
 .container .image {
-  margin: 2.47em auto 1.47em;
+  /* margin: 2.47em auto 1.47em; */
 }
 
 .container h2 {
@@ -43,4 +43,13 @@
   .container h2 {
     font-size: 25px;
   }
+}
+
+@media screen and (max-width: 500px) {
+  .container .image img{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+  }
+  
 }
