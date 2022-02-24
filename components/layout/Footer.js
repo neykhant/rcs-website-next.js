@@ -31,13 +31,13 @@ function Footer() {
         </div>
         <div className={styles.socialcontainer}>
           <p>
-            <FontAwesomeIcon icon={faPhoneAlt} size="lg" /> 09 799501600
+            <FontAwesomeIcon icon={faPhoneAlt} size="lg" /> +959 799501600
           </p>
           <p>
             <Link href="https://mail.google.com">
               <a target="_blank">
                 <FontAwesomeIcon icon={faEnvelope} size="lg" />{" "}
-                rcs.mdy@gmail.com
+                office@rcs-mm.com
               </a>
             </Link>
           </p>

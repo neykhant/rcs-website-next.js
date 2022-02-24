@@ -74,7 +74,7 @@ function Layout(props) {
       <NavigationMenu />
       {props.children}
       <Footer />
-      <Visitors visitors={visitors} />
+      {/* <Visitors visitors={visitors} /> */}
       <span
         className="scroll-top"
         onClick={scrollToTop}

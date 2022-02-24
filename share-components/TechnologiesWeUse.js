@@ -24,10 +24,10 @@ function TechnologiesWeUse() {
         </div>
         <div className={styles.image}>
           <img
-            src="/images/technologies/sass.svg"
+            src="/images/technologies/php.svg"
             alt="SASS"
-            width={46}
-            height={61}
+            width={86}
+            height={100}
           />
         </div>
         <div className={styles.image}>
@@ -56,7 +56,7 @@ function TechnologiesWeUse() {
         </div>
         <div className={styles.image}>
           <img
-            src="/images/technologies/strapi.svg"
+            src="/images/technologies/laravel.svg"
             alt="Strapi"
             width={80}
             height={100}
@@ -126,14 +126,14 @@ function TechnologiesWeUse() {
             height={70}
           />
         </div>
-        <div className={styles.image}>
+        {/* <div className={styles.image}>
           <img
             src="/images/technologies/graphql.svg"
             alt="Graphql"
             width={100}
             height={70}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -13,8 +13,8 @@ function Speech() {
         <img
           src="/images/about/chit-hsu-wai.jpeg"
           alt="CEO Profile"
-          width={225}
-          height={360}
+          width={200}
+          height={190}
           className={styles.image}
         />
 
