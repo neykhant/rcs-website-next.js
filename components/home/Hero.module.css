@@ -9,14 +9,13 @@
   overflow: hidden;
 }
 
-
 .textcontainer {
   width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1rem 5rem 5rem;
+  padding: 1rem 5rem 2rem;
   text-align: center;
 }
 
@@ -37,6 +36,7 @@
 @media screen and (max-width: 1200px) {
   .textcontainer {
     width: 100%;
+    padding: 1rem 1rem 1rem;
   }
 
   .textcontainer h1 {
@@ -46,11 +46,16 @@
   .textcontainer h2 {
     font-size: 41px;
   }
+
+  .textcontainer img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .textcontainer {
-    padding: 1rem 3rem 3rem;
+    /* padding: 1rem 3rem 3rem; */
+    padding: 1rem 1rem 1rem;
   }
 
   .textcontainer h1 {

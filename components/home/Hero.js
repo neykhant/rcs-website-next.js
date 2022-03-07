@@ -3,6 +3,8 @@ import styles from "./Hero.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import useTranslation from "next-translate/useTranslation";
+import imgrcs from './rcs.jpg';
+
 
 function Hero() {
   const { t } = useTranslation();
@@ -65,7 +67,7 @@ function Hero() {
   return (
     <div className={styles.container}>
       <div className={styles.textcontainer}>
-        <h1
+        {/* <h1
           data-aos="slide-right"
           data-aos-delay="70"
           data-aos-duration="2000"
@@ -77,7 +79,8 @@ function Hero() {
           <br />
           Innovate with technology!
         </h1>
-        {subTitle}
+        {subTitle} */}
+        <img src="/images/home/rcs_banner.jpg" />
       </div>
       {/* <div className={[styles.x1, styles.circlecontainer].join(" ")}>
         <div className={[styles.circles, styles.circle4].join(" ")}></div>
