@@ -136,7 +136,7 @@ const OurClient = () => {
         </div>
         <div className={styles.image_ourClient}>
           <img
-            src="/images/our-client/Yoon_s Collection.jpg"
+            src="/images/our-client/yoon.jpg"
             alt="Sqlite"
             // width={100}
             // height={70}

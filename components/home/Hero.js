@@ -75,12 +75,13 @@ function Hero() {
           data-aos-mirror="true"
           data-aos-once="false"
         >
+
           REAL CODE SOLUTIONS
           <br />
           Innovate with technology!
         </h1>
         {subTitle} */}
-        <img src="/images/home/rcs_banner.jpg" />
+        <img src="/images/home/rcs_banner.jpg" style={{width: '100%'}} />
       </div>
       {/* <div className={[styles.x1, styles.circlecontainer].join(" ")}>
         <div className={[styles.circles, styles.circle4].join(" ")}></div>

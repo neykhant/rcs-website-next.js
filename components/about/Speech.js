@@ -11,10 +11,10 @@ function Speech() {
       <h1>{"CEO's Greetings"}</h1>
       <div className={styles.card}>
         <img
-          src="/images/about/chit-hsu-wai.jpeg"
+          src="/images/our_images/CEO.png"
           alt="CEO Profile"
-          width={200}
-          height={190}
+          width={225}
+          height={225}
           className={styles.image}
         />
 
