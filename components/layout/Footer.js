@@ -5,12 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhoneAlt,
   faEnvelope,
-  faCaretDown,
+  faCaretDown
 } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
 import styles from "./Footer.module.css";
 import { useRouter } from "next/router";
-
 
 function Footer() {
   const router = useRouter();
@@ -25,8 +24,10 @@ function Footer() {
         <div className={styles.addresscontainer}>
           <h4>RCS</h4>
           <p>
-            No.24, 1st Floor, Kant Kaw Street, Between 22nd x 23rd Streets,
-            Between 88th x 89th Streets, Aung Myay Thar Zan Township, Mandalay
+            {/* No.24, 1st Floor, Kant Kaw Street, Between 22nd x 23rd Streets,
+            Between 88th x 89th Streets, Aung Myay Thar Zan Township, Mandalay */}
+            05011 No.24, 2F,Kant 87D St, Between 22 x 23 Sts, Aung Myay Thar Zan
+            Tsp, Mandalay，Myanmar
           </p>
         </div>
         <div className={styles.socialcontainer}>
@@ -95,7 +96,6 @@ function Footer() {
             </Link>
           </p>
         </div>
-        
       </div>
       <p className={styles.copyright}>
         &copy; 2021 Real Code Solution. All rights reserved.

@@ -63,7 +63,7 @@ function OurTeam() {
           <h3>Kaung San Hein</h3>
           <h3> Web and Android Developer</h3>
         </div>
-        <div className={styles.member}>
+        {/* <div className={styles.member}>
           <img
             src="/images/our_images/Lin Min Htet.png"
             alt="Profile"
@@ -73,8 +73,7 @@ function OurTeam() {
           />
           <h3>Lin Min Htet</h3>
           <h3> Web and Android Developer</h3>
-        </div>
-        
+        </div> */}
         
         <div className={styles.member}>
           <img
