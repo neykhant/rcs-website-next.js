@@ -26,7 +26,7 @@ function Footer() {
           <p>
             {/* No.24, 1st Floor, Kant Kaw Street, Between 22nd x 23rd Streets,
             Between 88th x 89th Streets, Aung Myay Thar Zan Township, Mandalay */}
-            05011 No.24, 2F,Kant 87D St, Between 22 x 23 Sts, Aung Myay Thar Zan
+            〒 05011, No.24, 2F,Kant 87D St, Between 22 x 23 Sts, Aung Myay Thar Zan
             Tsp, Mandalay，Myanmar
           </p>
         </div>

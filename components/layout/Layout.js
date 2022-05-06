@@ -17,8 +17,8 @@ const increaseVisitors = async () => {
         method: "POST",
         headers: {
           Authorization: "rcs-website-secret-token",
-          "Content-Type": "application/json",
-        },
+          "Content-Type": "application/json"
+        }
       });
       if (res.status === 201) {
         const data = await res.json();
@@ -65,7 +65,7 @@ function Layout(props) {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth",
+      behavior: "smooth"
     });
   };
 
